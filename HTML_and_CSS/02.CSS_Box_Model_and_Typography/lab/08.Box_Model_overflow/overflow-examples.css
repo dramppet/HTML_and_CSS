@@ -1,0 +1,20 @@
+div{
+    border: 2px solid black;
+    margin: 1em;
+    width: 400px;
+    height: 100px;
+
+}
+
+
+.visible p {
+    overflow: visible;
+}
+
+.hiden {
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}

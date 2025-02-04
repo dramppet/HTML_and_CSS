@@ -1,0 +1,26 @@
+div p{
+    color: blue;
+}
+
+ul > li {
+    list-style-type: decimal;
+}
+
+p + p {
+    background-color: bisque;
+}
+
+p ~ span {
+    font-weight: bold;
+}
+ul > li{
+    background-color: aquamarine;
+    color: red;
+    text-align: left;
+    animation: both;
+    cursor: -moz-zoom-in;
+}
+
+li > li{
+    background-color: blue;
+}
