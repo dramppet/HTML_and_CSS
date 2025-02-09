@@ -1,26 +1,26 @@
 .flex-container {
-  width: 400px;
+  width: 300px;
   padding: 1em;
   border: 2px solid blue;
   display: flex;
   align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 .flex-container .flex-item {
   background: #eee;
   padding: 20px;
   border: 2px solid #000;
+  flex-basis: 300px;
 }
 
-.gap-row {
-  gap: 2em 0;
+.flex-shrink-zero .flex-item {
+  flex-shrink: 0;
 }
 
-.gap-column {
-  gap: 0 2em;
+.flex-shrink-2nd-only .flex-item {
+  flex-shrink: 0;
 }
 
-.gap {
-  gap: 2em;
+.flex-shrink-2nd-only .flex-item:nth-child(2) {
+  flex-shrink: 1;
 }
